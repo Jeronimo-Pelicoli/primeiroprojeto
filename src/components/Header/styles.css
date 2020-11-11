@@ -1,0 +1,45 @@
+.header-header {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-header .logo p {
+    font-size: 20px;
+    color: white;
+}
+
+.header-header .menu {
+    align-self: flex-end;
+}
+
+.header-header .menu ul {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.header-header .menu ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.header-header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.header .login {
+    margin: 15px 0;
+    color: white;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header h1 {
+    margin: 0;
+    
+}
